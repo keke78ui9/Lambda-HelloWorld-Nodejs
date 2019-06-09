@@ -1,0 +1,15 @@
+{
+  "name": "sample-lambda-helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "zip -r Lambda-Product.zip * -x *.zip *.log LICENSE README.md package.json"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.204.0",
+    "firebase": "^3.2.1"
+  },
+  "author": "Peter Sbarski",
+  "license": "BSD-2-Clause"
+}
